@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+body{
+    background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+     display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+     
+}
+.navi{
+    display: flex;
+    gap:60px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+ul{
+    display: flex;
+    width: 100%;;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: rgb(224, 224, 58);
+    font-weight: 400;
+    
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.im{
+    height:30px;
+    width:100px;
+}
+.bt{
+    background-color: rgb(247, 80, 119);
+    padding:4px 10px;
+    cursor:pointer;
+    color:white;
+    border:1px solid white;
+    
+    font-weight: 600;
+    width:100px;
+    border-color: rgb(247, 80, 119); ;
+}
+.bt:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    
+}
+section h1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 6%;
+    
+    font-size: 60px;
+    color: rgb(250, 250, 82);
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#btn{
+    position: relative;
+    left:660px;
+    background-color: rgb(247, 80, 119);
+    padding:4px 10px;
+    cursor:pointer;
+    color:white;
+    margin-top: 30px;
+    
+    font-weight: 600;
+    width:200px;
+    height: 50px;
+    border-color: rgb(247, 80, 119); ;
+}
+footer{
+    position: relative;
+    left:1300px;
+    top: 100px;
+
+}
+.foot{
+    width:100px;
+    height: 100px;;
+}
